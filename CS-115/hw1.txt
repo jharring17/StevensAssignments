@@ -1,0 +1,30 @@
+#Picobot code for diamond map 
+# Jack Harrington
+# I pledge my honor that I have abided by the Stevens Honor System.
+0 x*** -> N 0
+0 NxWS -> E 0
+0 NExS -> W 0 
+0 NxWx -> E 0
+0 NExx -> W 0
+0 NEWx -> X 1
+
+1 NEWx -> S 2
+1 xxxx -> S 2
+
+2 xxxx -> E 2
+2 NExx -> W 3
+2 NExS -> W 3
+
+3 xxxx -> W 3
+3 NxWx -> E 1
+3 NxWS -> E 4
+
+4 xxxx -> S 4
+4 xxWS -> E 5
+4 xExS -> W 6
+
+5 xxxx -> E 5
+5 xExS -> W 4
+
+6 xxxx -> W 6
+6 xxWS -> E 4
