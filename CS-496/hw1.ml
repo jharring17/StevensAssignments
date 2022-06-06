@@ -3,7 +3,7 @@ Name        : hw1.ml
 Author      : Jack Harrington
 Date        : February 9, 2022
 Pledge      : I pledge my honor that I have abided by the Stevens Honor System.
-Description : Homework 1 for cs496
+Description : Homework 1 for cs496.
 *)
 
 type program = int list
